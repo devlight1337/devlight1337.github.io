@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML quiz</title>
+  <link href=".cohttps://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/quizes/assets/styles/sweet-alert.css">
+  <link rel="stylesheet" href="/quizes/assets/styles/quiz.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    .quiz-question{
+      color: whitesmoke;
+    }
+    #quiz {
+      height: 600px;
+      display: block;
+    }
+    .prim{
+      top: 40%;
+      left: 5%;
+      font-size: 50px;
+      z-index: 1000;
+    }
+    .neim{
+      top: 40%;
+      left: 87%;
+      font-size: 50px;
+      z-index: 1000;
+    }
+    .control {
+      position: absolute;
+      color: #1696d2;
+      display: block;
+    }
+    .control a {
+      color: #dee0e2;
+    }
+    .control a:hover {
+      color: #f3dfdf;
+    }
+    .control:hover {
+      opacity:0.6;
+    }
+  </style>
+</head>
+<body style="background:#242629;color:#d9edf7;">
+  <div class="prim control">
+    <a href="javascript:prevquiz()"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></a>
+  </div>
+
+  <div class="neim control">
+    <a href="javascript:nextquiz()"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+  </div>
+
+  <div class="container-fluid">
+    <div id="quiz"></div>
+  </div>
+  <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script src="/quizes/assets/scripts/sweet-alert.min.js"></script>
+  <script src="/quizes/assets/scripts/quiz.js"></script>
+  <script>
+    $(function() {
+      ququ = $('#quiz').quiz("1.json");
+    });
+  </script>
+</body>
+</html>

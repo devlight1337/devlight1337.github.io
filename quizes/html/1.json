@@ -1,0 +1,147 @@
+{
+    "questions": [{
+        "index": 0,
+        "answers": ["<p>Hyper Text Markup Language</p>", "<p>Home Template Markup Language</p>", "<p>Hyperlinks and Text Markup Language</p>"],
+        "correct": {
+            "index": 0,
+            "text": "<p>Ճիշտ պատասխանն է․ <strong>Hyper Text Markup Language</strong></p>"
+        },
+        "number": 0,
+        "prompt": "<p>Ի՞նչ է HTML-ը</p>"
+    },{
+        "index": 1,
+        "answers": ["<p>&lt;title&gt;</p>", "<p>&lt;head&gt;</p>", "<p>&lt;meta&gt;</p>","<p>&lt;h1&gt;</p>"],
+        "correct": {
+            "index": 0,
+            "text": "<p>Ճիշտ պատասխանն է․ <strong>&lt;title&gt;</strong></p>"
+        },
+        "number": 0,
+        "prompt": "<p>Ո՞ր թեգն է հատկանշում վերնագիր <em>բրաուզերի</em> համար</p>"
+    },{
+        "index": 2,
+        "answers": ["<p>&lt;title&gt;</p>", "<p>&lt;head&gt;</p>", "<p>&lt;meta&gt;</p>","<p>&lt;h1&gt;</p>"],
+        "correct": {
+            "index": 3,
+            "text": "<p>Ճիշտ պատասխանն է․ <strong>&lt;h1&gt;</strong></p>"
+        },
+        "number": 3,
+        "prompt": "<p>Ո՞ր թեգն է հատկանշում վերնագիր <em>փաստաթղթի</em> համար</p>"
+    },{
+        "index": 2,
+        "answers": ["<p>=</p>", "<p>&gt;</p>", "<p>/</p>","<p>&lt;</p>"],
+        "correct": {
+            "index": 2,
+            "text": "<p>Ճիշտ պատասխանն է․ <strong>/</strong></p>"
+        },
+        "number": 2,
+        "prompt": "<p>Ո՞ր սիմվոլն է օգտագործվում միայն փակվող թեգերի համար</p>"
+    },{
+        "index": 3,
+        "answers": ["<p>&lt;head&gt;</p>", "<p>&lt;h6&gt;</p>", "<p>&lt;heading&gt;</p>","<p>&lt;h1&gt;</p>"],
+        "correct": {
+            "index": 1,
+            "text": "<p>Ճիշտ պատասխանն է․ <strong>&lt;h6&gt;</strong></p>"
+        },
+        "number": 1,
+        "prompt": "<p>Ո՞ր թեգն է հատկանշում ամենափոքր վերնագիրը</p>"
+    },{
+        "index": 4,
+        "answers": ["<p>&lt;break&gt;</p>", "<p>&lt;br&gt;</p>", "<p>&lt;hr&gt;</p>"],
+        "correct": {
+            "index": 1,
+            "text": "<p>Ճիշտ պատասխանն է․ <strong>&lt;br&gt;</strong></p>"
+        },
+        "number": 1,
+        "prompt": "<p>Ո՞ր թեգը կհատկանշի մեկ տող տողադարձ</p>"
+    },{
+        "index": 5,
+        "answers": ["<p>&lt;dt&gt;</p>", "<p>&lt;ul&gt;</p>", "<p>&lt;ol&gt;</p>", "<p>&lt;dd&gt;</p>"],
+        "correct": {
+            "index": 2,
+            "text": "<p>Ճիշտ պատասխանն է․ <strong>&lt;ol&gt;</strong></p>"
+        },
+        "number": 2,
+        "prompt": "<p>Ո՞ր թեգն է ստեղծում համարակալված ցանկ</p>"
+    },{
+        "index": 6,
+        "answers": ["<p>&lt;dt&gt;</p>", "<p>&lt;ul&gt;</p>", "<p>&lt;ol&gt;</p>", "<p>&lt;dd&gt;</p>"],
+        "correct": {
+            "index": 1,
+            "text": "<p>Ճիշտ պատասխանն է․ <strong>&lt;ul&gt;</strong></p>"
+        },
+        "number": 1,
+        "prompt": "<p>Ո՞ր թեգն է ստեղծում չհամարակալված ցանկ</p>"
+    },{
+        "index": 7,
+        "answers": ["<p>&lt;img src=\"image.png\" alt=\"Պատկերի անունը\"&gt;</p>", "<p>&lt;img href=\"image.png\" alt=\"Պատկերի անունը\"&gt;</p>", "<p>&lt;image src=\"image.png\" alt=\"Պատկերի անունը\"&gt;</p>", "<p>&lt;img alt=\"image.png\" href=\"Պատկերի անունը\"&gt;</p>"],
+        "correct": {
+            "index": 0,
+            "text": "<p>Ճիշտ պատասխանն է․ <strong>&lt;img src=\"image.png\" alt=\"Պատկերի անունը\"&gt;</strong></p>"
+        },
+        "number": 0,
+        "prompt": "<p>Ո՞ր HTML կոդը կհատկանշի պատկեր</p>"
+    },{
+        "index": 8,
+        "answers": ["<p>&lt;table&gt;&lt;ul&gt;&lt;li&gt;</p>", "<p>&lt;table&gt;&lt;tr&gt;&lt;td&gt;</p>", "<p>&lt;table&gt;&lt;dd&gt;&lt;dt&gt;</p>", "<p>&lt;table&gt;&lt;tr&gt;&lt;dd&gt;</p>"],
+        "correct": {
+            "index": 1,
+            "text": "<p>Ճիշտ պատասխանն է․ <strong>&lt;table&gt;&lt;tr&gt;&lt;td&gt;</strong></p>"
+        },
+        "number": 1,
+        "prompt": "<p>Ո՞ր տարրերն են վերաբերվում միայն աղյուսակներին</p>"
+    },{
+        "index": 9,
+        "answers": ["<p>Այո</p>", "<p>Վեբ էջում հնարավոր չէ տեղադրել մեկ այլ վեբ էջ</p>", "<p>Ոչ</p>"],
+        "correct": {
+            "index": 0,
+            "text": "<p>Ճիշտ պատասխանն է․ <strong>Այո</strong></p>"
+        },
+        "number": 0,
+        "prompt": "<p>&lt;iframe&gt; թեգն օգտագործվում է վեբ էջում մեկ այլ վեբ էջ տեղադրելու համար</p>"
+    },{
+        "index": 10,
+        "answers": ["<p>&lt;comment&gt;Նո քոմմենթ&lt;/comment&gt;</p>", "<p>&lt;!--Նո քոմմենթ--&gt;</p>", "<p>&lt;p&gt;Նո քոմմենթ&lt;/p&gt;</p>"],
+        "correct": {
+            "index": 1,
+            "text": "<p>Ճիշտ պատասխանն է․ &lt;!--Նո քոմմենթ--&gt;</p>"
+        },
+        "number": 1,
+        "prompt": "<p>HTML-ում մեկնաբանությունները սահմանվում են այսպես`</p>"
+    },{
+        "index": 11,
+        "answers": ["<p>&lt;style&gt;body {color:red;}&lt;/style&gt;</p>", "<p>&lt;css&gt;body {color:red;}&lt;/css&gt;</p>", "<p>&lt;font&gt;body {color:red;}&lt;/font&gt;</p>"],
+        "correct": {
+            "index": 0,
+            "text": "<p>Ճիշտ պատասխանն է․ &lt;style&gt;body {color:red;}&lt;/style&gt;</p>"
+        },
+        "number": 0,
+        "prompt": "<p>HTML-ում ոճերը սահմանվում են այսպես`</p>"
+    },{
+        "index": 12,
+        "answers": ["<p>&lt;javascript&gt;alert('1337')&lt;/javascript&gt;</p>", "<p>&lt;ecmascript&gt;body {color:red;}&lt;/ecmascript&gt;</p>", "<p>&lt;script&gt;alert('1337')&lt;/script&gt;</p>"],
+        "correct": {
+            "index": 2,
+            "text": "<p>Ճիշտ պատասխանն է․ &lt;script&gt;alert('1337')&lt;/script&gt;</p>"
+        },
+        "number": 2,
+        "prompt": "<p>HTML-ում JavaScript կոդերը սահմանվում են այսպես`</p>"
+    },{
+        "index": 13,
+        "answers": ["<p>&#60;title charset=\"UTF-8\"/&#62;</p>", "<p>&#60;text charset=\"UTF-8\"/&#62;</p>", "<p>&#60;meta charset=\"UTF-8\"/&#62;</p>"],
+        "correct": {
+            "index": 2,
+            "text": "<p>Ճիշտ պատասխանն է․ &#60;meta charset=\"UTF-8\"/&#62;</p>"
+        },
+        "number": 2,
+        "prompt": "<p>Որպեսզի տեքստը բոլոր լեզուներով առանց խնդրի ցուցադրվի բրաուզերում, որ էլեմենտն է օգտագործվում HTML-ում</p>"
+    },{
+        "index": 14,
+        "answers": ["<p>Ճիշտ պատասխանն է․ #&amp;սիմվոլի-կոդը;, օրինակ #amp&amp;60;-&#60;</p>", "<p>&amp;#սիմվոլի-կոդը;, օրինակ &amp;#60;-&#60;</p>"],
+        "correct": {
+            "index": 1,
+            "text": "<p>Ճիշտ պատասխանն է․ &amp;#սիմվոլի-կոդը;, օրինակ &amp;#60;-&#60;</p>"
+        },
+        "number": 1,
+        "prompt": "<p>Ինչպես գրել չտպվող սիմվոլները HTML-ում</p>"
+    }]
+}

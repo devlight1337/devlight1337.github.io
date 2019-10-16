@@ -1,0 +1,42 @@
+{
+  "short_name": "devlight1337",
+  "name": "what are you looking for ? ¯\\_(ツ)_/¯",
+  "background_color": "#fff",
+  "theme_color": "#fff",
+  "display": "standalone",
+  "icons": [{
+      "src": "/images/doc36.png",
+      "sizes": "36x36",
+      "type": "image/png",
+      "density": "0.75"
+    },
+    {
+      "src": "/images/doc48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "/images/doc72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "density": "1.5"
+    },
+    {
+      "src": "/images/doc96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/images/doc144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "density": "3.0"
+    },
+    {
+      "src": "/images/doc192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "index.html"
+}
